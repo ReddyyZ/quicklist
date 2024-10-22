@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <title>quicklist</title>
+</head>
+<body>
+  <header>
+    <img src="img/icon.png" alt="Icon">
+    <h1>quicklist</h1>
+  </header>
+  <main>
+    <form action="#">
+      <a href="#" class="link"><- Voltar</a>
+      <h2>Compras da semana</h2>
+  
+      <div class="input-container">
+        <input type="text" name="item" id="item" placeholder="Adicione um novo item">
+        <button id="submit-btn" type="submit">Adicionar item</button>
+      </div>
+  
+      <div id="item-list">
+        <!-- <div class="item-container" id="item-1">
+          <input type="checkbox" name="" id="">
+          <p>Pão de forma</p>
+          <button>
+            <img src="img/trash.png" alt="">
+          </button>
+        </div>
+  
+        <div class="item-container" id="item-2">
+          <input type="checkbox" name="" id="">
+          <p>Café</p>
+          <button>
+            <img src="img/trash.png" alt="">
+          </button>
+        </div> -->
+      </div>
+  
+      <div id="alert" class="hidden">
+        <img src="img/alert.png" class="alert-icon" alt="">
+        <p>O item foi removido da lista</p>
+        <button type="button">
+          <img src="img/x.png" class="x-icon" alt="">
+        </button>
+      </div>
+    </form>
+  </main>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
