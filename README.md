@@ -8,9 +8,9 @@ Aplicativo de lista de tarefas desenvolvido como desafio proposto pelos orientad
 
 - **HTML**
 - **CSS**
-- **JS**
+- **Javascript**
 
-## Como Executar o Projeto
+## Como executar o projeto
 
 1. Clone o repositório:
 
