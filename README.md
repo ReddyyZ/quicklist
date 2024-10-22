@@ -12,4 +12,4 @@ Aplicativo de lista de tarefas desenvolvido como desafio proposto pelos orientad
 
 ---
 
-<h1 align="center"></> by <a href="https://github.com/ReddyyZ">ReddyyZ</a></h1>
+<h1 align="center">&lt;/&gt; by <a href="https://github.com/ReddyyZ">ReddyyZ</a></h1>
