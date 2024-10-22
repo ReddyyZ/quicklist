@@ -46,7 +46,7 @@ header > h1 {
 }
 
 main {
-  padding-inline: 367px;
+  padding-inline: 30px;
   margin-top: 37px;
 }
 
@@ -66,15 +66,16 @@ form > h2 {
 
 .input-container {
   display: flex;
+  flex-direction: column;
 }
 
 .input-container input {
-  flex: 1;
-  margin-right: 16px;
+  min-height: 44px;
   background-color: var(--bg-secondary);
   border: 2px solid var(--border-primary);
   padding-inline: 18px;
   border-radius: 12px;
+  margin-bottom: 8px;
   color: var(--content-tertiary);
 }
 
@@ -182,4 +183,36 @@ form > h2 {
 
 .hidden {
   visibility: hidden;
+}
+
+@media only screen and (min-width: 1024px) {
+  main {
+    padding-inline: 367px;
+  }
+
+  .input-container {
+    flex-direction: row;
+  }
+  
+  .input-container input {
+    flex: 1;
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    padding-inline: 200px;
+  }
+
+  .input-container {
+    flex-direction: row;
+  }
+  
+  .input-container input {
+    flex: 1;
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
 }
