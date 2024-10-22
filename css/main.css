@@ -185,9 +185,9 @@ form > h2 {
   visibility: hidden;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   main {
-    padding-inline: 367px;
+    padding-inline: 200px;
   }
 
   .input-container {
@@ -201,9 +201,9 @@ form > h2 {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   main {
-    padding-inline: 200px;
+    padding-inline: 367px;
   }
 
   .input-container {
